@@ -1,4 +1,4 @@
-# Este es mi proyecto dentro de codeacamp
+# Este es mi proyecto dentro de codeacamp es un sistema de tickets 
 This is the sample application for
 [*system - tickets:
 
