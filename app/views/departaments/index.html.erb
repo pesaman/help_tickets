@@ -1,0 +1,17 @@
+<header>
+  <h1>Departaments</h1>
+  <% admin_only do %>
+    <ul class="actions">
+      <li>
+        <%= link_to 'New Departament', new_admin_departament_path, class: 'new' %>
+      </li>
+    </ul>
+  <% end %>
+</header>
+
+<div id="departaments">
+  <% @departaments.each do |departament| %>
+    <h2><%= link_to departament.name, departament %></h2>
+    <p><%=  departament.description %></p>
+  <% end %>
+</div>

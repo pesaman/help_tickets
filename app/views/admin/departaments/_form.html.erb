@@ -1,0 +1,6 @@
+<%= simple_form_for([:admin, departament]) do |f| %>
+  <%= f.input :name, placeholder: 'Enter a departament\'s name' %>
+  <%= f.input :description, placeholder: 'Enter a description for the departament' %>
+
+  <%= f.button :submit, class: 'btn btn-default' %>
+<% end %>
