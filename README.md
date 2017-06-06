@@ -1,4 +1,4 @@
-# Este es mi proyecto dentro de codeacamp es un sistema de tickets 2017 v_2
+# This is my project within the code is a ticket system 2017
 This is the sample application for
 [*system - tickets:
 
