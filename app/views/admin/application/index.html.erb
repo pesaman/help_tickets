@@ -1,13 +1,13 @@
 <div class="row" id="admin">
   <div class="col-md-9">
     <header>
-      <h1>Admin Lounge</h1>
+      <h1>Admin</h1>
     </header>
-    <p>Welcome to the Ticket System's Admin's Lounge. Please enjoy your stay.</p>
+    <h5>Welcome to the helpTicket <%= current_user.email %></h5>
   </div>
 
   <div class="col md-3">
-    <h2>Admin Links</h2>
+    <h2>Admin</h2>
     <ul class="nav nav-stacked">
       <li>
         <%=  link_to 'Users', admin_users_path %>

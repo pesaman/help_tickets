@@ -1,5 +1,5 @@
 # Admin::DepartamentController namespace
-class Admin::DepartamentController < Admin::ApplicationController
+class Admin::DepartamentsController < Admin::ApplicationController
   def new
     @departament = Departament.new
   end
