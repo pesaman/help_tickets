@@ -1,0 +1,9 @@
+/* line 5, /Users/codea_mac_18/Desktop/proyecto codea/help_tickets/app/assets/stylesheets/admin/application.scss */
+#admin .col-md-3 h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #9AFE2E;
+  padding-left: 515px;
+}
